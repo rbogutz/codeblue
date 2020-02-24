@@ -52,3 +52,13 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 26ms (Views: 16.7ms | ActiveRecord: 0.0ms | Allocations: 7638)
 
 
+Started GET "/" for 159.91.97.201 at 2020-02-24 17:54:13 -0500
+Cannot render console from 159.91.97.201! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 194)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 14.6ms | ActiveRecord: 0.0ms | Allocations: 7640)
+
+
