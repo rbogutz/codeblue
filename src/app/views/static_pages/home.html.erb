@@ -2,7 +2,54 @@
      Description: This project assists the homeless during cold weather
      Filename: home.html.erb 
      Description: HTML for landing page
-     Last modified on: 24 Feb 2020 -->
-<h1>Welcome to Code Blue. </h1>
-<p>This app allows the public to report the location of homeless persons during extreme winter weather events</p>
-<p>to help Philadelphia Office of Homeless Services transport the homeless to shelters.</p>
+     Last modified on: 26 April 2020 -->
+<style>
+     body {
+          font-family: sans-serif;
+     }
+
+     #navbar {
+          margin: 20px;
+          display: flex;
+          align-items: center;
+          justify: center;
+     }
+
+     #navbar h1 { 
+          font-size: 2em;
+          margin: 0 2em 0 0;
+     }
+
+     #navbar a {
+          text-decoration: none;
+          color: black;
+          margin: 0 1em 0 1em
+     }
+
+     img {
+          height: 500px; 
+          display: block; 
+          margin: 0 auto;
+     }
+
+     p {
+          font-size: 1.5em;
+          text-align: center;
+     }
+</style>
+<body>
+     <div id="navbar">
+          <a href="/"><h1>Code Blue</h1></a>
+          <%= link_to "Create Report", "reports/new"%>
+          <%= link_to "Philadelphia OHS", 
+          "http://philadelphiaofficeofhomelessservices.org/services/weather-code-blue/",
+               :target => "blank"%>
+          <%= link_to "Municipal View", ""%>
+     </div>
+     <img src="/assets/city_hall.jpg">
+     <p>
+          Hello! This website allows the public to report locations of the homeless<br/>
+          in cold weather so that they can receive shelter from the elements. <br/>
+          Not yet affiliated with Philadelphia Office of Homeless Services.
+     </p>
+</body>
