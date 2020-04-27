@@ -4291,3 +4291,774 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 4253)
 
 
+Started GET "/" for 159.91.172.216 at 2020-04-26 19:29:46 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 51)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.0ms | Allocations: 4273)
+
+
+Started GET "/reports/new" for 159.91.172.216 at 2020-04-26 19:29:49 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#new as HTML
+  Rendering reports/new.html.erb within layouts/application
+  Rendered reports/_form.html.erb (Duration: 2.4ms | Allocations: 507)
+  Rendered reports/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 635)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 4866)
+
+
+Started GET "/" for 159.91.172.216 at 2020-04-26 19:29:53 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 51)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 4260)
+
+
+Started GET "/reports/new" for 159.91.172.216 at 2020-04-26 19:30:32 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#new as HTML
+  Rendering reports/new.html.erb within layouts/application
+  Rendered reports/_form.html.erb (Duration: 1.4ms | Allocations: 507)
+  Rendered reports/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 635)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 4854)
+
+
+Started GET "/" for 159.91.172.216 at 2020-04-26 19:31:28 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 51)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 4246)
+
+
+Started GET "/reports/new" for 159.91.172.216 at 2020-04-26 19:44:15 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ReportsController#new as HTML
+  Rendering reports/new.html.erb within layouts/application
+  Rendered reports/_form.html.erb (Duration: 2.3ms | Allocations: 920)
+  Rendered reports/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1419)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 10300)
+
+
+Started GET "/reports/new" for 159.91.172.216 at 2020-04-26 19:44:25 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#new as HTML
+  Rendering reports/new.html.erb within layouts/application
+  Rendered reports/_form.html.erb (Duration: 1.3ms | Allocations: 512)
+  Rendered reports/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 642)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 4861)
+
+
+Started GET "/" for 159.91.172.216 at 2020-04-26 19:44:37 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 245)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 5028)
+
+
+Started GET "/reports/new" for 159.91.172.216 at 2020-04-26 19:46:53 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#new as HTML
+  Rendering reports/new.html.erb within layouts/application
+  Rendered reports/_form.html.erb (Duration: 1.3ms | Allocations: 514)
+  Rendered reports/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 644)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 4873)
+
+
+Started POST "/reports" for 159.91.172.216 at 2020-04-26 19:46:55 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#create as HTML
+  Parameters: {"authenticity_token"=>"5IW956demJAZKzKveAguqv2q7A5yNNu7pVaOHyEQxIE1qrVZ15L1liCl5RoHh5yFlojC/hkqtdMyzaIqpPnQlA==", "report"=>{"location_id"=>"", "numPeople"=>""}, "comments"=>"", "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/reports_controller.rb:37:in `block in create'
+  [1m[36mReport Create (1.0ms)[0m  [1m[32mINSERT INTO "reports" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2020-04-26 23:46:55.666291"], ["updated_at", "2020-04-26 23:46:55.666291"]]
+  ↳ app/controllers/reports_controller.rb:37:in `block in create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/reports_controller.rb:37:in `block in create'
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 1.1ms | Allocations: 3658)
+
+
+  
+ActiveRecord::NotNullViolation (SQLite3::ConstraintException: NOT NULL constraint failed: reports.location_id):
+  
+app/controllers/reports_controller.rb:37:in `block in create'
+app/controllers/reports_controller.rb:36:in `create'
+Started GET "/" for 159.91.172.216 at 2020-04-26 19:47:02 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 51)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 4275)
+
+
+Started GET "/reports/new" for 159.91.172.216 at 2020-04-26 19:47:08 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#new as HTML
+  Rendering reports/new.html.erb within layouts/application
+  Rendered reports/_form.html.erb (Duration: 1.6ms | Allocations: 507)
+  Rendered reports/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 635)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 4866)
+
+
+Started GET "/" for 159.91.172.216 at 2020-04-26 19:47:09 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 51)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 4260)
+
+
+Started GET "/reports/new" for 159.91.172.216 at 2020-04-26 19:47:10 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#new as HTML
+  Rendering reports/new.html.erb within layouts/application
+  Rendered reports/_form.html.erb (Duration: 1.3ms | Allocations: 507)
+  Rendered reports/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 635)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 4860)
+
+
+Started GET "/" for 159.91.172.216 at 2020-04-26 19:47:11 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 51)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 4246)
+
+
+Started GET "/reports/new" for 159.91.172.216 at 2020-04-26 19:47:12 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#new as HTML
+  Rendering reports/new.html.erb within layouts/application
+  Rendered reports/_form.html.erb (Duration: 1.1ms | Allocations: 507)
+  Rendered reports/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 635)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 4854)
+
+
+Started GET "/" for 159.91.172.216 at 2020-04-26 19:47:12 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 51)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 4258)
+
+
+Started GET "/reports/new" for 159.91.172.216 at 2020-04-26 19:49:19 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#new as HTML
+  Rendering reports/new.html.erb within layouts/application
+  Rendered reports/_form.html.erb (Duration: 1.3ms | Allocations: 507)
+  Rendered reports/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 635)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 4862)
+
+
+Started GET "/" for 159.91.172.216 at 2020-04-26 19:49:42 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 51)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 4254)
+
+
+Started GET "/reports/new" for 159.91.172.216 at 2020-04-26 20:29:54 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ReportsController#new as HTML
+  Rendering reports/new.html.erb within layouts/application
+  Rendered reports/_form.html.erb (Duration: 3.1ms | Allocations: 507)
+  Rendered reports/new.html.erb within layouts/application (Duration: 4.1ms | Allocations: 635)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 4864)
+
+
+Started GET "/" for 159.91.172.216 at 2020-04-26 20:29:57 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 51)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 4258)
+
+
+Started GET "/reports/new" for 159.91.172.216 at 2020-04-26 20:30:46 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#new as HTML
+  Rendering reports/new.html.erb within layouts/application
+  Rendered reports/_form.html.erb (Duration: 1.3ms | Allocations: 507)
+  Rendered reports/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 635)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 4852)
+
+
+Started GET "/" for 159.91.172.216 at 2020-04-26 20:35:30 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 52)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 4388)
+
+
+Started GET "/reports/new" for 159.91.172.216 at 2020-04-26 20:36:02 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#new as HTML
+  Rendering reports/new.html.erb within layouts/application
+  Rendered reports/_form.html.erb (Duration: 1.5ms | Allocations: 571)
+  Rendered reports/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 701)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 9.4ms | ActiveRecord: 0.9ms | Allocations: 9156)
+
+
+Started GET "/reports/new" for 159.91.172.216 at 2020-04-26 20:40:37 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/home/student1/codeblue/src/app/controllers/reports_controller.rb:78: syntax error, unexpected ')', expecting `end'
+....permit(:numPeople, :comments))#(:location_id, :weather_id, ...
+...                              ^
+):
+  
+app/controllers/reports_controller.rb:78: syntax error, unexpected ')', expecting `end'
+app/controllers/reports_controller.rb:78: syntax error, unexpected ')', expecting `end'
+app/controllers/reports_controller.rb:78: syntax error, unexpected ')', expecting `end'
+Started GET "/reports/new" for 159.91.172.216 at 2020-04-26 20:40:45 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ReportsController#new as HTML
+  Rendering reports/new.html.erb within layouts/application
+  Rendered reports/_form.html.erb (Duration: 1.5ms | Allocations: 571)
+  Rendered reports/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 701)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 8.8ms | ActiveRecord: 0.8ms | Allocations: 9169)
+
+
+Started POST "/reports" for 159.91.172.216 at 2020-04-26 20:40:51 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#create as HTML
+  Parameters: {"authenticity_token"=>"XhIDeXSBwOWIxU9RZs/gwLYQAjA1hKIsV2rcII9zv/1G6+zLY7ldnhogy7eWT+ig9poHLaiYLVZN4+gWexhA9g==", "report"=>{"location_id"=>"123", "numPeople"=>"2"}, "comments"=>"", "commit"=>"Submit"}
+[31mUnpermitted parameter: :location_id[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/reports_controller.rb:36:in `block in create'
+  [1m[36mReport Create (1.0ms)[0m  [1m[32mINSERT INTO "reports" ("numPeople", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["numPeople", 2], ["created_at", "2020-04-27 00:40:51.036299"], ["updated_at", "2020-04-27 00:40:51.036299"]]
+  ↳ app/controllers/reports_controller.rb:36:in `block in create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/reports_controller.rb:36:in `block in create'
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 1.1ms | Allocations: 3635)
+
+
+  
+ActiveRecord::NotNullViolation (SQLite3::ConstraintException: NOT NULL constraint failed: reports.location_id):
+  
+app/controllers/reports_controller.rb:36:in `block in create'
+app/controllers/reports_controller.rb:35:in `create'
+Started POST "/reports" for 159.91.172.216 at 2020-04-26 20:44:02 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ReportsController#create as HTML
+  Parameters: {"authenticity_token"=>"XhIDeXSBwOWIxU9RZs/gwLYQAjA1hKIsV2rcII9zv/1G6+zLY7ldnhogy7eWT+ig9poHLaiYLVZN4+gWexhA9g==", "report"=>{"location_id"=>"123", "numPeople"=>"2"}, "comments"=>"", "commit"=>"Submit"}
+[31mUnpermitted parameter: :location_id[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/reports_controller.rb:36:in `block in create'
+  [1m[36mReport Create (0.8ms)[0m  [1m[32mINSERT INTO "reports" ("numPeople", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["numPeople", 2], ["created_at", "2020-04-27 00:44:02.424154"], ["updated_at", "2020-04-27 00:44:02.424154"]]
+  ↳ app/controllers/reports_controller.rb:36:in `block in create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/reports_controller.rb:36:in `block in create'
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 1.8ms | Allocations: 9174)
+
+
+  
+ActiveRecord::NotNullViolation (SQLite3::ConstraintException: NOT NULL constraint failed: reports.location_id):
+  
+app/controllers/reports_controller.rb:36:in `block in create'
+app/controllers/reports_controller.rb:35:in `create'
+Started POST "/reports" for 159.91.172.216 at 2020-04-26 20:44:06 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#create as HTML
+  Parameters: {"authenticity_token"=>"XhIDeXSBwOWIxU9RZs/gwLYQAjA1hKIsV2rcII9zv/1G6+zLY7ldnhogy7eWT+ig9poHLaiYLVZN4+gWexhA9g==", "report"=>{"location_id"=>"123", "numPeople"=>"2"}, "comments"=>"", "commit"=>"Submit"}
+[31mUnpermitted parameter: :location_id[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/reports_controller.rb:36:in `block in create'
+  [1m[36mReport Create (0.8ms)[0m  [1m[32mINSERT INTO "reports" ("numPeople", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["numPeople", 2], ["created_at", "2020-04-27 00:44:06.580361"], ["updated_at", "2020-04-27 00:44:06.580361"]]
+  ↳ app/controllers/reports_controller.rb:36:in `block in create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/reports_controller.rb:36:in `block in create'
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 1.0ms | Allocations: 3583)
+
+
+  
+ActiveRecord::NotNullViolation (SQLite3::ConstraintException: NOT NULL constraint failed: reports.location_id):
+  
+app/controllers/reports_controller.rb:36:in `block in create'
+app/controllers/reports_controller.rb:35:in `create'
+Started POST "/reports" for 159.91.172.216 at 2020-04-26 20:44:15 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#create as HTML
+  Parameters: {"authenticity_token"=>"XhIDeXSBwOWIxU9RZs/gwLYQAjA1hKIsV2rcII9zv/1G6+zLY7ldnhogy7eWT+ig9poHLaiYLVZN4+gWexhA9g==", "report"=>{"location_id"=>"", "numPeople"=>"2"}, "comments"=>"", "commit"=>"Submit"}
+[31mUnpermitted parameter: :location_id[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/reports_controller.rb:36:in `block in create'
+  [1m[36mReport Create (0.9ms)[0m  [1m[32mINSERT INTO "reports" ("numPeople", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["numPeople", 2], ["created_at", "2020-04-27 00:44:15.365820"], ["updated_at", "2020-04-27 00:44:15.365820"]]
+  ↳ app/controllers/reports_controller.rb:36:in `block in create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/reports_controller.rb:36:in `block in create'
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 1.1ms | Allocations: 3591)
+
+
+  
+ActiveRecord::NotNullViolation (SQLite3::ConstraintException: NOT NULL constraint failed: reports.location_id):
+  
+app/controllers/reports_controller.rb:36:in `block in create'
+app/controllers/reports_controller.rb:35:in `create'
+Started GET "/" for 159.91.172.216 at 2020-04-26 20:44:40 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 52)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 4399)
+
+
+Started GET "/" for 159.91.172.216 at 2020-04-26 20:44:41 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 51)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 4258)
+
+
+Started GET "/reports/new" for 159.91.172.216 at 2020-04-26 20:44:45 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ReportsController#new as HTML
+  Rendering reports/new.html.erb within layouts/application
+  Rendered reports/_form.html.erb (Duration: 1.7ms | Allocations: 568)
+  Rendered reports/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 696)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 8.3ms | ActiveRecord: 0.8ms | Allocations: 9486)
+
+
+Started POST "/reports" for 159.91.172.216 at 2020-04-26 20:44:49 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#create as HTML
+  Parameters: {"authenticity_token"=>"V1T8eusKMmhF/issJJAP4ERtQ0zYCbugbO6aKJgan9CGe/TEm8Zfbnxw/JlbH73PL09tvLMX1cj7dbYdHfOLxQ==", "report"=>{"location_id"=>"123", "numPeople"=>"1"}, "comments"=>"", "commit"=>"Submit"}
+[31mUnpermitted parameter: :location_id[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/reports_controller.rb:36:in `block in create'
+  [1m[36mReport Create (0.7ms)[0m  [1m[32mINSERT INTO "reports" ("numPeople", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["numPeople", 1], ["created_at", "2020-04-27 00:44:49.600398"], ["updated_at", "2020-04-27 00:44:49.600398"]]
+  ↳ app/controllers/reports_controller.rb:36:in `block in create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/reports_controller.rb:36:in `block in create'
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.9ms | Allocations: 3649)
+
+
+  
+ActiveRecord::NotNullViolation (SQLite3::ConstraintException: NOT NULL constraint failed: reports.location_id):
+  
+app/controllers/reports_controller.rb:36:in `block in create'
+app/controllers/reports_controller.rb:35:in `create'
+Started GET "/" for 159.91.172.216 at 2020-04-26 20:45:57 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 52)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 4395)
+
+
+Started GET "/reports/new" for 159.91.172.216 at 2020-04-26 20:45:58 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#new as HTML
+  Rendering reports/new.html.erb within layouts/application
+  Rendered reports/_form.html.erb (Duration: 1.6ms | Allocations: 568)
+  Rendered reports/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 696)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 8.5ms | ActiveRecord: 0.8ms | Allocations: 8985)
+
+
+Started POST "/reports" for 159.91.172.216 at 2020-04-26 20:46:02 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#create as HTML
+  Parameters: {"authenticity_token"=>"s6+xK1ZC0JTQ/COLxsXL5GHRv8pJU6wPi2LtnYg7rDligLmVJo69kuly9D65SnnLCvOROiJNwmcc+cGoDdK4LA==", "report"=>{"location_id"=>"123", "numPeople"=>"1"}, "comments"=>"", "commit"=>"Submit"}
+[31mUnpermitted parameter: :location_id[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/reports_controller.rb:36:in `block in create'
+  [1m[36mReport Create (0.8ms)[0m  [1m[32mINSERT INTO "reports" ("numPeople", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["numPeople", 1], ["created_at", "2020-04-27 00:46:02.412538"], ["updated_at", "2020-04-27 00:46:02.412538"]]
+  ↳ app/controllers/reports_controller.rb:36:in `block in create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/reports_controller.rb:36:in `block in create'
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 1.0ms | Allocations: 3645)
+
+
+  
+ActiveRecord::NotNullViolation (SQLite3::ConstraintException: NOT NULL constraint failed: reports.location_id):
+  
+app/controllers/reports_controller.rb:36:in `block in create'
+app/controllers/reports_controller.rb:35:in `create'
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/reports/new" for 159.91.172.216 at 2020-04-26 20:56:07 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (6.0.2.1) lib/active_record/migration.rb:587:in `check_pending!'
+activerecord (6.0.2.1) lib/active_record/migration.rb:564:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/rails/actions" for 159.91.172.216 at 2020-04-26 20:56:08 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to ChangeWeatherLocationNull (20200427005443)
+  
+SyntaxError (/home/student1/codeblue/src/db/migrate/20200427005443_change_weather_location_null.rb:5: syntax error, unexpected `end'
+  end
+  ^~~
+):
+  
+db/migrate/20200427005443_change_weather_location_null.rb:5: syntax error, unexpected `end'
+  end
+  ^~~
+db/migrate/20200427005443_change_weather_location_null.rb:5: syntax error, unexpected `end'
+  end
+  ^~~
+db/migrate/20200427005443_change_weather_location_null.rb:5: syntax error, unexpected `end'
+  end
+  ^~~
+bootsnap (1.4.5) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require'
+bootsnap (1.4.5) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `block in require_with_bootsnap_lfi'
+bootsnap (1.4.5) lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+bootsnap (1.4.5) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require_with_bootsnap_lfi'
+bootsnap (1.4.5) lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+zeitwerk (2.2.2) lib/zeitwerk/kernel.rb:23:in `require'
+activerecord (6.0.2.1) lib/active_record/migration.rb:1010:in `load_migration'
+activerecord (6.0.2.1) lib/active_record/migration.rb:1006:in `migration'
+activerecord (6.0.2.1) lib/active_record/migration.rb:1001:in `disable_ddl_transaction'
+activerecord (6.0.2.1) lib/active_record/migration.rb:1369:in `use_transaction?'
+activerecord (6.0.2.1) lib/active_record/migration.rb:1361:in `ddl_transaction'
+activerecord (6.0.2.1) lib/active_record/migration.rb:1310:in `execute_migration_in_transaction'
+activerecord (6.0.2.1) lib/active_record/migration.rb:1282:in `block in migrate_without_lock'
+activerecord (6.0.2.1) lib/active_record/migration.rb:1281:in `each'
+activerecord (6.0.2.1) lib/active_record/migration.rb:1281:in `migrate_without_lock'
+activerecord (6.0.2.1) lib/active_record/migration.rb:1231:in `migrate'
+activerecord (6.0.2.1) lib/active_record/migration.rb:1061:in `up'
+activerecord (6.0.2.1) lib/active_record/migration.rb:1036:in `migrate'
+activerecord (6.0.2.1) lib/active_record/tasks/database_tasks.rb:238:in `migrate'
+activerecord (6.0.2.1) lib/active_record/migration.rb:135:in `block in <class:PendingMigrationError>'
+activesupport (6.0.2.1) lib/active_support/actionable_error.rb:28:in `dispatch'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:19:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/rails/actions" for 159.91.172.216 at 2020-04-26 20:56:59 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to ChangeWeatherLocationNull (20200427005443)
+  
+NameError (uninitialized constant ChangeWeatherLocationNull):
+  
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:282:in `const_get'
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:282:in `block in constantize'
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:280:in `each'
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:280:in `inject'
+activesupport (6.0.2.1) lib/active_support/inflector/methods.rb:280:in `constantize'
+activesupport (6.0.2.1) lib/active_support/core_ext/string/inflections.rb:68:in `constantize'
+activerecord (6.0.2.1) lib/active_record/migration.rb:1011:in `load_migration'
+activerecord (6.0.2.1) lib/active_record/migration.rb:1006:in `migration'
+activerecord (6.0.2.1) lib/active_record/migration.rb:1001:in `disable_ddl_transaction'
+activerecord (6.0.2.1) lib/active_record/migration.rb:1369:in `use_transaction?'
+activerecord (6.0.2.1) lib/active_record/migration.rb:1316:in `rescue in execute_migration_in_transaction'
+activerecord (6.0.2.1) lib/active_record/migration.rb:1304:in `execute_migration_in_transaction'
+activerecord (6.0.2.1) lib/active_record/migration.rb:1282:in `block in migrate_without_lock'
+activerecord (6.0.2.1) lib/active_record/migration.rb:1281:in `each'
+activerecord (6.0.2.1) lib/active_record/migration.rb:1281:in `migrate_without_lock'
+activerecord (6.0.2.1) lib/active_record/migration.rb:1231:in `migrate'
+activerecord (6.0.2.1) lib/active_record/migration.rb:1061:in `up'
+activerecord (6.0.2.1) lib/active_record/migration.rb:1036:in `migrate'
+activerecord (6.0.2.1) lib/active_record/tasks/database_tasks.rb:238:in `migrate'
+activerecord (6.0.2.1) lib/active_record/migration.rb:135:in `block in <class:PendingMigrationError>'
+activesupport (6.0.2.1) lib/active_support/actionable_error.rb:28:in `dispatch'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:19:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to ChangeWeatherLocationNull (20200427005443)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TEMPORARY TABLE "areports" ("id" integer NOT NULL PRIMARY KEY, "location_id" integer NOT NULL, "weather_id" integer NOT NULL, "numPeople" integer DEFAULT NULL, "comments" varchar DEFAULT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "tindex_areports_on_weather_id" ON "areports" ("weather_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "tindex_areports_on_location_id" ON "areports" ("location_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "areports" ("id","location_id","weather_id","numPeople","comments","created_at","updated_at")
+                     SELECT "id","location_id","weather_id","numPeople","comments","created_at","updated_at" FROM "reports"[0m
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE "reports"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "reports" ("id" integer NOT NULL PRIMARY KEY, "location_id" integer DEFAULT NULL, "weather_id" integer NOT NULL, "numPeople" integer DEFAULT NULL, "comments" varchar DEFAULT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, CONSTRAINT "fk_rails_32446da173"
+FOREIGN KEY ("weather_id")
+  REFERENCES "weathers" ("id")
+, CONSTRAINT "fk_rails_845bd75fb2"
+FOREIGN KEY ("location_id")
+  REFERENCES "locations" ("id")
+)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "index_reports_on_location_id" ON "reports" ("location_id")[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "index_reports_on_weather_id" ON "reports" ("weather_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "reports" ("id","location_id","weather_id","numPeople","comments","created_at","updated_at")
+                     SELECT "id","location_id","weather_id","numPeople","comments","created_at","updated_at" FROM "areports"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE "areports"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TEMPORARY TABLE "areports" ("id" integer NOT NULL PRIMARY KEY, "location_id" integer DEFAULT NULL, "weather_id" integer NOT NULL, "numPeople" integer DEFAULT NULL, "comments" varchar DEFAULT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "tindex_areports_on_weather_id" ON "areports" ("weather_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "tindex_areports_on_location_id" ON "areports" ("location_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "areports" ("id","location_id","weather_id","numPeople","comments","created_at","updated_at")
+                     SELECT "id","location_id","weather_id","numPeople","comments","created_at","updated_at" FROM "reports"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE "reports"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "reports" ("id" integer NOT NULL PRIMARY KEY, "location_id" integer DEFAULT NULL, "weather_id" integer DEFAULT NULL, "numPeople" integer DEFAULT NULL, "comments" varchar DEFAULT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, CONSTRAINT "fk_rails_845bd75fb2"
+FOREIGN KEY ("location_id")
+  REFERENCES "locations" ("id")
+, CONSTRAINT "fk_rails_32446da173"
+FOREIGN KEY ("weather_id")
+  REFERENCES "weathers" ("id")
+)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "index_reports_on_location_id" ON "reports" ("location_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_reports_on_weather_id" ON "reports" ("weather_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "reports" ("id","location_id","weather_id","numPeople","comments","created_at","updated_at")
+                     SELECT "id","location_id","weather_id","numPeople","comments","created_at","updated_at" FROM "areports"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "areports"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200427005443"]]
+  [1m[35m (4.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/rails/actions" for 159.91.172.216 at 2020-04-26 20:58:04 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+Started GET "/reports/new" for 159.91.172.216 at 2020-04-26 20:58:05 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ReportsController#new as HTML
+  Rendering reports/new.html.erb within layouts/application
+  Rendered reports/_form.html.erb (Duration: 1.8ms | Allocations: 568)
+  Rendered reports/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 696)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 9.9ms | ActiveRecord: 0.7ms | Allocations: 10406)
+
+
+Started POST "/reports" for 159.91.172.216 at 2020-04-26 20:58:07 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#create as HTML
+  Parameters: {"authenticity_token"=>"nO1++SzXHjVgDNB6SUslIMk48N+Wy1D76FL9IaAqvQOEFJFLO++DTvLpVJy5yy1AibL1wgvX34Hy28kXVEFCCA==", "report"=>{"location_id"=>"", "numPeople"=>""}, "comments"=>"", "commit"=>"Submit"}
+[31mUnpermitted parameter: :location_id[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/reports_controller.rb:36:in `block in create'
+  [1m[36mReport Create (0.5ms)[0m  [1m[32mINSERT INTO "reports" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2020-04-27 00:58:07.104999"], ["updated_at", "2020-04-27 00:58:07.104999"]]
+  ↳ app/controllers/reports_controller.rb:36:in `block in create'
+  [1m[35m (5.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/reports_controller.rb:36:in `block in create'
+Redirected to http://csc415-server22.hpc.tcnj.edu:3000/reports/1
+Completed 302 Found in 13ms (ActiveRecord: 6.2ms | Allocations: 3766)
+
+
+Started GET "/reports/1" for 159.91.172.216 at 2020-04-26 20:58:07 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReport Load (0.2ms)[0m  [1m[34mSELECT "reports".* FROM "reports" WHERE "reports"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/reports_controller.rb:73:in `set_report'
+  Rendering reports/show.html.erb within layouts/application
+  Rendered reports/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 294)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 8.3ms | ActiveRecord: 0.2ms | Allocations: 5276)
+
+
+Started POST "/reports" for 159.91.172.216 at 2020-04-26 20:58:37 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#create as HTML
+  Parameters: {"authenticity_token"=>"nO1++SzXHjVgDNB6SUslIMk48N+Wy1D76FL9IaAqvQOEFJFLO++DTvLpVJy5yy1AibL1wgvX34Hy28kXVEFCCA==", "report"=>{"location_id"=>"123 Easy St", "numPeople"=>"1"}, "comments"=>"No", "commit"=>"Submit"}
+[31mUnpermitted parameter: :location_id[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/reports_controller.rb:36:in `block in create'
+  [1m[36mReport Create (0.4ms)[0m  [1m[32mINSERT INTO "reports" ("numPeople", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["numPeople", 1], ["created_at", "2020-04-27 00:58:37.361313"], ["updated_at", "2020-04-27 00:58:37.361313"]]
+  ↳ app/controllers/reports_controller.rb:36:in `block in create'
+  [1m[35m (5.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/reports_controller.rb:36:in `block in create'
+Redirected to http://csc415-server22.hpc.tcnj.edu:3000/reports/2
+Completed 302 Found in 11ms (ActiveRecord: 6.1ms | Allocations: 3691)
+
+
+Started GET "/reports/2" for 159.91.172.216 at 2020-04-26 20:58:37 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mReport Load (0.2ms)[0m  [1m[34mSELECT "reports".* FROM "reports" WHERE "reports"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/reports_controller.rb:73:in `set_report'
+  Rendering reports/show.html.erb within layouts/application
+  Rendered reports/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 80)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 7.7ms | ActiveRecord: 0.2ms | Allocations: 4809)
+
+
+Started GET "/reports" for 159.91.172.216 at 2020-04-26 20:58:42 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#index as HTML
+  Rendering reports/index.html.erb within layouts/application
+  [1m[36mReport Load (0.2ms)[0m  [1m[34mSELECT "reports".* FROM "reports"[0m
+  ↳ app/views/reports/index.html.erb:18
+  Rendered reports/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 1150)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.2ms | ActiveRecord: 0.2ms | Allocations: 5517)
+
+
+Started GET "/reports/new" for 159.91.172.216 at 2020-04-26 20:58:49 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#new as HTML
+  Rendering reports/new.html.erb within layouts/application
+  Rendered reports/_form.html.erb (Duration: 1.1ms | Allocations: 510)
+  Rendered reports/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 638)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 4872)
+
+
+Started GET "/" for 159.91.172.216 at 2020-04-26 21:00:19 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 52)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 4373)
+
+
