@@ -27,6 +27,16 @@ rails db:migrate
 rails db:seed
 ```
 
+**Running the Application**
+
+Find out the IP address or binding of your VM or machine.
+
+Run `rails server --binding <ip address>`
+
+View the application in-browser.
+
+If you are running it locally, the application should be viewable at localhost:3000.
+
 # Known Issues
 
 1. Report creation does not yet validate location or weather
