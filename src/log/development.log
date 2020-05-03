@@ -6914,3 +6914,14 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 4318)
 
 
+Started GET "/reports/new" for 159.91.172.216 at 2020-05-03 15:24:02 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ReportsController#new as HTML
+  Rendering reports/new.html.erb within layouts/application
+  Rendered reports/_form.html.erb (Duration: 1.7ms | Allocations: 704)
+  Rendered reports/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 834)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 8.8ms | ActiveRecord: 0.8ms | Allocations: 9449)
+
+

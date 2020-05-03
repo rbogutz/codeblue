@@ -29,9 +29,12 @@ class ReportsController < ApplicationController
 
   # POST /reports
   # POST /reports.json
-  # TODO: Change redirect to landing page with notice
+  # This method is edited, it creates a location object which calls a validator
   def create
-    @report = Report.new(report_params)
+    #location_string = report_params['location_string'] # get street input
+    #location = Location.new() 
+    # add location to report_params, remove location_string
+    @report = Report.new(report_params) # create a report object
 
     respond_to do |format|
       if @report.save
