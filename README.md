@@ -3,7 +3,34 @@
 
 # Installation
 
+**Dependencies: Install Ruby, Ruby on Rails, and PostGreSQL**
+
+Current Version: Ruby  2.7.0p0, Rails 6.0.2.1, PostGreSQL 12.1
+
+See https://gorails.com/setup/.
+
+**Install this Repository**
+
+run `git clone https://github.com/rbogutz/codeblue.git`
+
+**Install Other Dependencies**
+
+Go to the project `src` directory and run `bundle install` to install other dependencies (like Ruby gems)
+
+**Set Up Database**
+
+Run the following commands within the `src` directory:
+```
+rails db:create
+rails db:migrate:reset
+rails db:migrate 
+rails db:seed
+```
+
 # Known Issues
+
+1. Report creation does not yet validate location or weather
+2. Location objects are not created properly when a report is made
 
 # Open Source Maintenance and Communication
 This project uses an MIT license (found under LICENSE.md).
