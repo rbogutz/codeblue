@@ -39,7 +39,9 @@ If you are running it locally, the application should be viewable at localhost:3
 
 If you are using a VM with a web server, use \<server address\>:3000.
 
-**See Wiki for More Information and Requirements**
+**System Expectations**
+
+You should have a system on a modern OS--Windows, Mac, Linux--with command line/IDE utility. A custom web server is helpful, but not needed since Rails has its own web server functionality to host websites locally.
 
 # Known Issues
 
