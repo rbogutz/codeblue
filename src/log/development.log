@@ -6476,3 +6476,441 @@ Processing by ReportsController#index as HTML
 Completed 200 OK in 15ms (Views: 12.9ms | ActiveRecord: 0.3ms | Allocations: 8611)
 
 
+Started GET "/" for 159.91.172.216 at 2020-05-03 15:06:39 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 373)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 43ms (Views: 32.1ms | ActiveRecord: 0.0ms | Allocations: 9572)
+
+
+Started GET "/" for 159.91.172.216 at 2020-05-03 15:06:44 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 53)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 4276)
+
+
+Started GET "/reports/new" for 159.91.172.216 at 2020-05-03 15:06:45 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#new as HTML
+  Rendering reports/new.html.erb within layouts/application
+  Rendered reports/_form.html.erb (Duration: 4.8ms | Allocations: 2613)
+  Rendered reports/new.html.erb within layouts/application (Duration: 6.0ms | Allocations: 3127)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 12.9ms | ActiveRecord: 0.8ms | Allocations: 12714)
+
+
+Started GET "/" for 159.91.172.216 at 2020-05-03 15:06:53 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 53)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 4274)
+
+
+Started GET "/reports/new" for 159.91.172.216 at 2020-05-03 15:06:54 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#new as HTML
+  Rendering reports/new.html.erb within layouts/application
+  Rendered reports/_form.html.erb (Duration: 1.3ms | Allocations: 533)
+  Rendered reports/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 662)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 4915)
+
+
+Started GET "/" for 159.91.172.216 at 2020-05-03 15:06:55 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 52)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 4261)
+
+
+Started GET "/reports/new" for 159.91.172.216 at 2020-05-03 15:06:56 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#new as HTML
+  Rendering reports/new.html.erb within layouts/application
+  Rendered reports/_form.html.erb (Duration: 1.1ms | Allocations: 533)
+  Rendered reports/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 661)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 4898)
+
+
+Started POST "/reports" for 159.91.172.216 at 2020-05-03 15:07:09 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#create as HTML
+  Parameters: {"authenticity_token"=>"0uNTEqXKbki6qcHc8c+YCAJgxC+j2zho7h6Gr6pP4UcDzFus1QYDToMnFmmOQConaULq38jFVgB5haqaL6b1Ug==", "report"=>{"location_string"=>"123 East Street", "numPeople"=>"1", "comments"=>""}, "commit"=>"Submit"}
+[31mUnpermitted parameter: :location_string[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/reports_controller.rb:37:in `block in create'
+  [1m[36mReport Create (0.6ms)[0m  [1m[32mINSERT INTO "reports" ("numPeople", "comments", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["numPeople", 1], ["comments", ""], ["created_at", "2020-05-03 19:07:09.553834"], ["updated_at", "2020-05-03 19:07:09.553834"]]
+  ↳ app/controllers/reports_controller.rb:37:in `block in create'
+  [1m[35m (38.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/reports_controller.rb:37:in `block in create'
+Redirected to http://csc415-server22.hpc.tcnj.edu:3000/
+Completed 302 Found in 46ms (ActiveRecord: 39.6ms | Allocations: 3050)
+
+
+Started GET "/" for 159.91.172.216 at 2020-05-03 15:07:09 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 51)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 4286)
+
+
+Started GET "/reports/new" for 159.91.172.216 at 2020-05-03 15:09:55 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ReportsController#new as HTML
+  Rendering reports/new.html.erb within layouts/application
+  Rendered reports/_form.html.erb (Duration: 2.6ms | Allocations: 704)
+  Rendered reports/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 834)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 12.9ms | ActiveRecord: 1.0ms | Allocations: 9571)
+
+
+Started POST "/reports" for 159.91.172.216 at 2020-05-03 15:10:00 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#create as HTML
+  Parameters: {"authenticity_token"=>"IOHfP9Cu7pimroI1hHCF71U0T8VOSa8Alh6QJP70VzfxzteBoGKDnp8gVYD7/zfAPhZhNSVXwWgBhbwRex1DIg==", "report"=>{"location_string"=>"123", "numPeople"=>"11", "comments"=>""}, "commit"=>"Submit"}
+[31mUnpermitted parameter: :location_string[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/reports_controller.rb:37:in `block in create'
+  [1m[36mReport Create (0.5ms)[0m  [1m[32mINSERT INTO "reports" ("numPeople", "comments", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["numPeople", 11], ["comments", ""], ["created_at", "2020-05-03 19:10:00.178144"], ["updated_at", "2020-05-03 19:10:00.178144"]]
+  ↳ app/controllers/reports_controller.rb:37:in `block in create'
+  [1m[35m (4.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/reports_controller.rb:37:in `block in create'
+Redirected to http://csc415-server22.hpc.tcnj.edu:3000/reports/28
+Completed 302 Found in 13ms (ActiveRecord: 5.0ms | Allocations: 3241)
+
+
+Started GET "/reports/28" for 159.91.172.216 at 2020-05-03 15:10:00 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mReport Load (0.2ms)[0m  [1m[34mSELECT "reports".* FROM "reports" WHERE "reports"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/controllers/reports_controller.rb:74:in `set_report'
+  Rendering reports/show.html.erb within layouts/application
+  Rendered reports/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 301)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 7.3ms | ActiveRecord: 0.2ms | Allocations: 5601)
+
+
+Started GET "/reports/" for 159.91.172.216 at 2020-05-03 15:10:17 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#index as HTML
+  Rendering reports/index.html.erb within layouts/application
+  [1m[36mReport Load (0.3ms)[0m  [1m[34mSELECT "reports".* FROM "reports"[0m
+  ↳ app/views/reports/index.html.erb:18
+  Rendered reports/index.html.erb within layouts/application (Duration: 8.0ms | Allocations: 4443)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.3ms | ActiveRecord: 0.3ms | Allocations: 8813)
+
+
+Started GET "/reports/28" for 159.91.172.216 at 2020-05-03 15:11:32 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mReport Load (0.1ms)[0m  [1m[34mSELECT "reports".* FROM "reports" WHERE "reports"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/controllers/reports_controller.rb:74:in `set_report'
+  Rendering reports/show.html.erb within layouts/application
+  Rendered reports/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 81)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 5.9ms | ActiveRecord: 0.1ms | Allocations: 4810)
+
+
+Started GET "/reports/28" for 159.91.172.216 at 2020-05-03 15:11:44 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ReportsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mReport Load (0.1ms)[0m  [1m[34mSELECT "reports".* FROM "reports" WHERE "reports"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/controllers/reports_controller.rb:74:in `set_report'
+  Rendering reports/show.html.erb within layouts/application
+  Rendered reports/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 93)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 7.2ms | ActiveRecord: 1.0ms | Allocations: 9334)
+
+
+Started POST "/reports" for 159.91.172.216 at 2020-05-03 15:11:47 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#create as HTML
+  Parameters: {"authenticity_token"=>"HyfUg6ybosG5kfSIkqMZ9BJPcTAKgbjVdHZokBX5aykH3jsxu6M/uit0cG5iIxGUUsV0LZedN69u/1ym4ZKUIg==", "report"=>{"location_string"=>"123", "numPeople"=>"11", "comments"=>""}, "commit"=>"Submit"}
+[31mUnpermitted parameter: :location_string[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/reports_controller.rb:37:in `block in create'
+  [1m[36mReport Create (0.4ms)[0m  [1m[32mINSERT INTO "reports" ("numPeople", "comments", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["numPeople", 11], ["comments", ""], ["created_at", "2020-05-03 19:11:47.753403"], ["updated_at", "2020-05-03 19:11:47.753403"]]
+  ↳ app/controllers/reports_controller.rb:37:in `block in create'
+  [1m[35m (4.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/reports_controller.rb:37:in `block in create'
+Redirected to http://csc415-server22.hpc.tcnj.edu:3000/reports/29
+Completed 302 Found in 11ms (ActiveRecord: 5.2ms | Allocations: 2922)
+
+
+Started GET "/reports/29" for 159.91.172.216 at 2020-05-03 15:11:47 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#show as HTML
+  Parameters: {"id"=>"29"}
+  [1m[36mReport Load (0.2ms)[0m  [1m[34mSELECT "reports".* FROM "reports" WHERE "reports"."id" = ? LIMIT ?[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/controllers/reports_controller.rb:74:in `set_report'
+  Rendering reports/show.html.erb within layouts/application
+  Rendered reports/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 82)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 6.9ms | ActiveRecord: 0.2ms | Allocations: 4822)
+
+
+Started POST "/reports" for 159.91.172.216 at 2020-05-03 15:11:54 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ReportsController#create as HTML
+  Parameters: {"authenticity_token"=>"HyfUg6ybosG5kfSIkqMZ9BJPcTAKgbjVdHZokBX5aykH3jsxu6M/uit0cG5iIxGUUsV0LZedN69u/1ym4ZKUIg==", "report"=>{"location_string"=>"123", "numPeople"=>"11", "comments"=>""}, "commit"=>"Submit"}
+[31mUnpermitted parameter: :location_string[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/reports_controller.rb:37:in `block in create'
+  [1m[36mReport Create (0.3ms)[0m  [1m[32mINSERT INTO "reports" ("numPeople", "comments", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["numPeople", 11], ["comments", ""], ["created_at", "2020-05-03 19:11:55.040502"], ["updated_at", "2020-05-03 19:11:55.040502"]]
+  ↳ app/controllers/reports_controller.rb:37:in `block in create'
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/reports_controller.rb:37:in `block in create'
+Redirected to http://csc415-server22.hpc.tcnj.edu:3000/reports/30
+Completed 302 Found in 24ms (ActiveRecord: 4.2ms | Allocations: 7159)
+
+
+Started GET "/reports/30" for 159.91.172.216 at 2020-05-03 15:11:55 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#show as HTML
+  Parameters: {"id"=>"30"}
+  [1m[36mReport Load (0.3ms)[0m  [1m[34mSELECT "reports".* FROM "reports" WHERE "reports"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/reports_controller.rb:74:in `set_report'
+  Rendering reports/show.html.erb within layouts/application
+  Rendered reports/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 94)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 0.3ms | Allocations: 5142)
+
+
+Started GET "/reports/30" for 159.91.172.216 at 2020-05-03 15:14:58 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ReportsController#show as HTML
+  Parameters: {"id"=>"30"}
+  [1m[36mReport Load (0.2ms)[0m  [1m[34mSELECT "reports".* FROM "reports" WHERE "reports"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/reports_controller.rb:74:in `set_report'
+  Rendering reports/show.html.erb within layouts/application
+  Rendered reports/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 294)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 9.7ms | ActiveRecord: 0.9ms | Allocations: 10292)
+
+
+Started GET "/" for 159.91.172.216 at 2020-05-03 15:15:01 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 276)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 5071)
+
+
+Started GET "/reports/new" for 159.91.172.216 at 2020-05-03 15:15:02 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#new as HTML
+  Rendering reports/new.html.erb within layouts/application
+  Rendered reports/_form.html.erb (Duration: 2.9ms | Allocations: 1051)
+  Rendered reports/new.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1545)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 5927)
+
+
+Started POST "/reports" for 159.91.172.216 at 2020-05-03 15:15:07 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#create as HTML
+  Parameters: {"authenticity_token"=>"nmupSCfE8imXLcBg9Q2qBt1EIPWIyFVTVkoUiFl1bg1PRKH2VwifL66jF9WKghgptmYOBePWOzvB0Ti93Jx6GA==", "report"=>{"location_string"=>"123", "numPeople"=>"1", "comments"=>""}, "commit"=>"Submit"}
+[31mUnpermitted parameter: :location_string[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/reports_controller.rb:37:in `block in create'
+  [1m[36mReport Create (0.4ms)[0m  [1m[32mINSERT INTO "reports" ("numPeople", "comments", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["numPeople", 1], ["comments", ""], ["created_at", "2020-05-03 19:15:07.228522"], ["updated_at", "2020-05-03 19:15:07.228522"]]
+  ↳ app/controllers/reports_controller.rb:37:in `block in create'
+  [1m[35m (5.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/reports_controller.rb:37:in `block in create'
+Redirected to 
+Completed 500 Internal Server Error in 180ms (ActiveRecord: 6.0ms | Allocations: 87030)
+
+
+  
+NoMethodError (undefined method `index_url' for #<ReportsController:0x00007f6794099248>
+Did you mean?  index):
+  
+app/controllers/reports_controller.rb:38:in `block (2 levels) in create'
+app/controllers/reports_controller.rb:36:in `create'
+Started POST "/reports" for 159.91.172.216 at 2020-05-03 15:15:59 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ReportsController#create as HTML
+  Parameters: {"authenticity_token"=>"nmupSCfE8imXLcBg9Q2qBt1EIPWIyFVTVkoUiFl1bg1PRKH2VwifL66jF9WKghgptmYOBePWOzvB0Ti93Jx6GA==", "report"=>{"location_string"=>"123", "numPeople"=>"1", "comments"=>""}, "commit"=>"Submit"}
+[31mUnpermitted parameter: :location_string[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/reports_controller.rb:37:in `block in create'
+  [1m[36mReport Create (0.3ms)[0m  [1m[32mINSERT INTO "reports" ("numPeople", "comments", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["numPeople", 1], ["comments", ""], ["created_at", "2020-05-03 19:15:59.849414"], ["updated_at", "2020-05-03 19:15:59.849414"]]
+  ↳ app/controllers/reports_controller.rb:37:in `block in create'
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/reports_controller.rb:37:in `block in create'
+Redirected to http://csc415-server22.hpc.tcnj.edu:3000/
+Completed 302 Found in 18ms (ActiveRecord: 4.4ms | Allocations: 7537)
+
+
+Started GET "/" for 159.91.172.216 at 2020-05-03 15:15:59 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 69)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 4516)
+
+
+Started GET "/" for 159.91.172.216 at 2020-05-03 15:16:24 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 277)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 5411)
+
+
+Started GET "/reports/new" for 159.91.172.216 at 2020-05-03 15:16:26 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#new as HTML
+  Rendering reports/new.html.erb within layouts/application
+  Rendered reports/_form.html.erb (Duration: 2.3ms | Allocations: 1074)
+  Rendered reports/new.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1568)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 6381)
+
+
+Started POST "/reports" for 159.91.172.216 at 2020-05-03 15:16:31 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#create as HTML
+  Parameters: {"authenticity_token"=>"ndbgy/hjFXix8Cjkz8l/+i4yTlABbwtgrPcT0eJfra9M+eh1iK94foh+/1GwRs3VRRBgoGpxZQg7bD/kZ7a5ug==", "report"=>{"location_string"=>"123", "numPeople"=>"1", "comments"=>""}, "commit"=>"Submit"}
+[31mUnpermitted parameter: :location_string[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/reports_controller.rb:37:in `block in create'
+  [1m[36mReport Create (0.3ms)[0m  [1m[32mINSERT INTO "reports" ("numPeople", "comments", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["numPeople", 1], ["comments", ""], ["created_at", "2020-05-03 19:16:31.883884"], ["updated_at", "2020-05-03 19:16:31.883884"]]
+  ↳ app/controllers/reports_controller.rb:37:in `block in create'
+  [1m[35m (5.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/reports_controller.rb:37:in `block in create'
+Redirected to http://csc415-server22.hpc.tcnj.edu:3000/
+Completed 302 Found in 10ms (ActiveRecord: 5.4ms | Allocations: 3111)
+
+
+Started GET "/" for 159.91.172.216 at 2020-05-03 15:16:31 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 69)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 4294)
+
+
+Started GET "/reports/new" for 159.91.172.216 at 2020-05-03 15:17:25 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#new as HTML
+  Rendering reports/new.html.erb within layouts/application
+  Rendered reports/_form.html.erb (Duration: 1.8ms | Allocations: 889)
+  Rendered reports/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1382)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 6548)
+
+
+Started GET "/" for 159.91.172.216 at 2020-05-03 15:17:26 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 276)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 5069)
+
+
+Started GET "/reports/new" for 159.91.172.216 at 2020-05-03 15:17:27 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#new as HTML
+  Rendering reports/new.html.erb within layouts/application
+  Rendered reports/_form.html.erb (Duration: 1.8ms | Allocations: 540)
+  Rendered reports/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 670)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 4904)
+
+
+Started GET "/" for 159.91.172.216 at 2020-05-03 15:17:28 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 65)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 4306)
+
+
+Started GET "/" for 159.91.172.216 at 2020-05-03 15:17:32 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 65)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 4278)
+
+
+Started GET "/reports/new" for 159.91.172.216 at 2020-05-03 15:19:14 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#new as HTML
+  Rendering reports/new.html.erb within layouts/application
+  Rendered reports/_form.html.erb (Duration: 1.6ms | Allocations: 535)
+  Rendered reports/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 663)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 4905)
+
+
+Started GET "/reports/" for 159.91.172.216 at 2020-05-03 15:19:18 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#index as HTML
+  Rendering reports/index.html.erb within layouts/application
+  [1m[36mReport Load (0.7ms)[0m  [1m[34mSELECT "reports".* FROM "reports"[0m
+  ↳ app/views/reports/index.html.erb:70
+  Rendered reports/index.html.erb within layouts/application (Duration: 10.0ms | Allocations: 5238)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.7ms | Allocations: 9629)
+
+
+Started GET "/" for 159.91.172.216 at 2020-05-03 15:19:30 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 67)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 4293)
+
+
+Started GET "/reports/new" for 159.91.172.216 at 2020-05-03 15:19:48 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ReportsController#new as HTML
+  Rendering reports/new.html.erb within layouts/application
+  Rendered reports/_form.html.erb (Duration: 1.3ms | Allocations: 536)
+  Rendered reports/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 664)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 4897)
+
+
+Started GET "/" for 159.91.172.216 at 2020-05-03 15:19:52 -0400
+Cannot render console from 159.91.172.216! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 65)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 4318)
+
+

@@ -29,13 +29,14 @@ class ReportsController < ApplicationController
 
   # POST /reports
   # POST /reports.json
+  # TODO: Change redirect to landing page with notice
   def create
     @report = Report.new(report_params)
 
     respond_to do |format|
       if @report.save
         format.html { redirect_to :root, notice: 'Report was successfully created.' }
-        format.json { render :show, status: :created, location: @report }
+        #format.json { render :show, status: :created, location: @report }
       else
         format.html { render :new }
         format.json { render json: @report.errors, status: :unprocessable_entity }
