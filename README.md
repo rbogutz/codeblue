@@ -37,7 +37,7 @@ View the application in-browser.
 
 If you are running it locally, the application should be viewable at localhost:3000.
 
-If you are using a VM with a web server, use <server address>:3000.
+If you are using a VM with a web server, use \<server address\>:3000.
 
 # Known Issues
 
